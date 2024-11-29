@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q/r3Qn5t8T/F9iU6VQjqnEI/HdSdyKeWUd6vnTk15pU=",
+  "Hash": "aSMyteMzQ7tiR/z6+lsg57uFvZvjf5eH/jIaWI9YON8=",
   "Source": "Blazor_EFL_VIEW",
   "BasePath": "_content/Blazor_EFL_VIEW",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Blazor_EFL_VIEW\\wwwroot",
       "Source": "Blazor_EFL_VIEW",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blazor_EFL_VIEW.styles.css",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blazor_EFL_VIEW.styles.css",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "Blazor_EFL_VIEW.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blazor_EFL_VIEW.styles.css"
+      "OriginalItemSpec": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blazor_EFL_VIEW.styles.css"
     },
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor_EFL_VIEW.bundle.scp.css",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor_EFL_VIEW.bundle.scp.css",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "Blazor_EFL_VIEW.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor_EFL_VIEW.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor_EFL_VIEW.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\app.css",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\favicon.png",
       "SourceId": "Blazor_EFL_VIEW",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\EntityFramework_Library_UE2\\Blazor_EFL_VIEW\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simsi\\Desktop\\3Bhit\\trjzkulik\\Blazor_EFL_VIEW\\wwwroot\\",
       "BasePath": "_content/Blazor_EFL_VIEW",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

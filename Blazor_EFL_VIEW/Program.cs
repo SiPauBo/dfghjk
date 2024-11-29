@@ -1,3 +1,4 @@
+using Blazor_EFL_VIEW.Classes;
 using Blazor_EFL_VIEW.Components;
 using Blazor_EFL_VIEW.Data;
 using Domain.Interfaces;
@@ -40,6 +41,16 @@ app.MapRazorComponents<App>()
 
 app.Run();
 
-internal class BookRepository : IRepository<Book>
+public class AuthorRepository: Repository<Author>
 {
+    public AuthorRepository(AppDbContext context) : base(context)
+    {
+    }
+}
+public class BookRepository: Repository<Book>
+{
+    public BookRepository(AppDbContext context) : base(context)
+    {
+
+    }
 }

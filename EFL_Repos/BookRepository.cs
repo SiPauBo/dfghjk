@@ -11,12 +11,5 @@ using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 namespace EFL_Repos;
 
-public class BookRepository: Repository<Book>
-{
-    public BookRepository(AppDbContext context) : base(context)
-    {
-
-    }
-}
 
 
