@@ -19,9 +19,4 @@ public class BookRepository: Repository<Book>
     }
 }
 
-public class AuthorRepository: Repository<Author>
-{
-    public AuthorRepository(AppDbContext context) : base(context)
-    {
-    }
-}
+

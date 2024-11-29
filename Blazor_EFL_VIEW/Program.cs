@@ -1,5 +1,7 @@
 using Blazor_EFL_VIEW.Components;
-using Blazor_EFL_VIEW.Data; // Import your DbContext namespace
+using Blazor_EFL_VIEW.Data;
+using Domain.Interfaces;
+using EntityFramework_Library.Classes; // Import your DbContext namespace
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
 
+builder.Services.AddTransient<IRepository<Book>, BookRepository>();
+builder.Services.AddTransient<IRepository<Author>, AuthorRepository>();
 
 var app = builder.Build();
 
@@ -35,3 +39,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+
+internal class BookRepository : IRepository<Book>
+{
+}
