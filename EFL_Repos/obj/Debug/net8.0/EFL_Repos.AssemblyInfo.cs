@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFL_Repos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6e548643829f72d09c9189384672a3052595479")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c70d4bd38bd819602a78b245b21326afd2088af")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFL_Repos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFL_Repos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
