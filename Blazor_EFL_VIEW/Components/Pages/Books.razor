@@ -1,0 +1,30 @@
+﻿@page "/books"
+@using Blazor_EFL_VIEW.Classes
+@using Domain.Interfaces
+@using EntityFramework_Library.Classes
+@inject IRepository<Book> BookRepository
+
+<h3>All Books</h3>
+
+@if (books == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var book in books)
+        {
+            <li>@book.Title (Author: @book.Author.FirstName @book.Author.LastName) </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Book> books;
+
+    protected override async Task OnInitializedAsync()
+    {
+        books = await Task.Run(() => BookRepository.ReadAll());
+    }
+}

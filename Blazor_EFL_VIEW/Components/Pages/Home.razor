@@ -1,0 +1,43 @@
+﻿@page "/"
+
+<h1>Welcome to the Library</h1>
+<p>Explore the library's features by choosing an option below:</p>
+
+<ul>
+    <li><NavLink href="/books" class="nav-link" active-class="active-link">View All Books</NavLink></li>
+    <li><NavLink href="/authors" class="nav-link" active-class="active-link">View All Authors</NavLink></li>
+    <li><NavLink href="/search-author" class="nav-link" active-class="active-link">Search Author</NavLink></li>
+    <li><NavLink href="/add-author" class="nav-link" active-class="active-link">Add Author</NavLink></li>
+</ul>
+
+<style>
+    h1 {
+        color: #2c3e50;
+        font-size: 2rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #3498db;
+        font-size: 1.1rem;
+        transition: color 0.2s ease;
+    }
+
+    .nav-link:hover {
+        color: #2c3e50;
+    }
+
+    .active-link {
+        font-weight: bold;
+        color: #1abc9c;
+    }
+</style>

@@ -1,0 +1,66 @@
+﻿@page "/authors"
+@using Domain.Interfaces
+@using EntityFramework_Library.Classes
+@inject IRepository<Author> AuthorRepository
+@inject NavigationManager NavigationManager
+
+<h3>Authors</h3>
+
+@if (authors == null)
+{
+    <p>Loading authors...</p>
+}
+else if (authors.Count == 0)
+{
+    <p>No authors available.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var author in authors)
+        {
+            <tr>
+                <td>@author.Id</td>
+                <td>@author.FirstName</td>
+                <td>@author.LastName</td>
+                <td>
+                    <button @onclick="() => EditAuthor(author.Id)">Edit</button>
+                    <button @onclick="() => DeleteAuthor(author.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Author> authors;
+
+    protected override async Task OnInitializedAsync()
+    {
+        authors = await Task.Run(() => AuthorRepository.ReadAll());
+    }
+
+    private void EditAuthor(int authorId)
+    {
+        NavigationManager.NavigateTo($"/edit-author/{authorId}");
+    }
+
+    private async Task DeleteAuthor(int authorId)
+    {
+        var author = authors.FirstOrDefault(a => a.Id == authorId);
+        if (author != null)
+        {
+            await Task.Run(() => AuthorRepository.Delete(author));
+            authors.Remove(author); // Remove from the UI
+        }
+    }
+}

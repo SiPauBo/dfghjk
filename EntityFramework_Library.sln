@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_EFL_VIEW", "Blazor_EFL_VIEW\Blazor_EFL_VIEW.csproj", "{A46535C0-B8BF-4DD1-8732-420FEF5FFEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFL_Repos", "EFL_Repos\EFL_Repos.csproj", "{474BC7F9-512B-428C-A1CB-AF9688D86CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A46535C0-B8BF-4DD1-8732-420FEF5FFEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46535C0-B8BF-4DD1-8732-420FEF5FFEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46535C0-B8BF-4DD1-8732-420FEF5FFEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46535C0-B8BF-4DD1-8732-420FEF5FFEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474BC7F9-512B-428C-A1CB-AF9688D86CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474BC7F9-512B-428C-A1CB-AF9688D86CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474BC7F9-512B-428C-A1CB-AF9688D86CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474BC7F9-512B-428C-A1CB-AF9688D86CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

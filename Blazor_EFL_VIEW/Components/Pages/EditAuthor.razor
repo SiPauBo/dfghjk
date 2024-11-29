@@ -1,0 +1,47 @@
+﻿@page "/edit-author/{AuthorId:int}"
+@using Domain.Interfaces
+@using EntityFramework_Library.Classes
+@inject IRepository<Author> AuthorRepository
+@inject NavigationManager NavigationManager
+
+<h3>Edit Author</h3>
+
+@if (author == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="@author" OnValidSubmit="UpdateAuthor">
+        <div>
+            <label for="name">Name:</label>
+            <InputText id="fname" @bind-Value="author.FirstName" />
+            <InputText id="lname" @bind-Value="author.LastName" />
+        </div>
+        <button type="submit">Save Changes</button>
+        <button @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int AuthorId { get; set; }
+
+    private Author author;
+
+    protected override async Task OnInitializedAsync()
+    {
+        author = await Task.Run(() => AuthorRepository.Read(AuthorId));
+    }
+
+    private async Task UpdateAuthor()
+    {
+        await Task.Run(() => AuthorRepository.Updata(author));
+        NavigationManager.NavigateTo("/authors");
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/authors");
+    }
+}

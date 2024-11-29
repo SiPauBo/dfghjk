@@ -1,0 +1,25 @@
+﻿@page "/add-author"
+@using Blazor_EFL_VIEW.Classes
+@using Domain.Interfaces
+@using EntityFramework_Library.Classes
+@inject IRepository<Author> AuthorRepository
+@inject NavigationManager NavigationManager
+
+<h3>Add Author</h3>
+<EditForm Model="@newAuthor" OnValidSubmit="HandleValidSubmit">
+    <InputText id="fname" @bind-Value="newAuthor.FirstName" />
+    <InputText id="lname" @bind-Value="newAuthor.LastName"   />
+
+    <button type="submit">Add</button>
+</EditForm>
+
+@code {
+    private Author newAuthor = new();
+
+    private async Task HandleValidSubmit()
+    {
+        await Task.Run(() => AuthorRepository.Create(newAuthor));
+        NavigationManager.NavigateTo("/authors");
+    }
+}
+
